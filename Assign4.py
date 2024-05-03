@@ -18,3 +18,17 @@ invitations to send.
 This program will require you to incorporate everything we
 have learned so far.
 """
+Invited = []
+Inviting = input("Enter a fruit name: ")
+for i in range(1000):
+    if Inviting in Invited:
+        Invited.remove(Inviting)
+        print(Invited)
+    if Inviting not in Invited:
+        Invited.insert(0,Inviting)
+        print(Invited)
+else:
+    Invited.sort()
+    print(Invited)
+
+ 

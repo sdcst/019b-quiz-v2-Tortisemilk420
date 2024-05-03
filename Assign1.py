@@ -3,3 +3,14 @@
 # in 5 numbers.  The program will determine the sum of the 5 numbers
 # and calculate the average
 # You must use only 1 input statement in your program
+
+import math
+for i in range(5):
+ nums = int(input("Enter a number: "))
+pass
+print(nums+nums+nums+nums+nums)
+
+
+
+ 
+
